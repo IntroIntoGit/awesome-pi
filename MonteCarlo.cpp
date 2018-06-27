@@ -3,8 +3,7 @@
 #include <stdlib.h>
 
 double estimate_pi() {
-    double niter = 200000;
-    double niter = 1000;
+    double niter = 500000;
     double x,y;                        //x,y value for the random coordinate
     int i;
     int count=0;                        //Count holds all the number of how many good coordinates
